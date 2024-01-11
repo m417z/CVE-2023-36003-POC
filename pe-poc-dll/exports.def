@@ -1,0 +1,5 @@
+LIBRARY "pe-poc-dll.dll"
+EXPORTS
+	InjectTAP
+	DllGetClassObject PRIVATE
+	DllCanUnloadNow PRIVATE
